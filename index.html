@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/best-carousel-slide.css">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -49,42 +50,35 @@
         </div>
     </nav>
     <section class="d-block" id="carousel">
-        <div class="carousel slide d-block visible" data-ride="carousel" id="carousel-1">
+        <div class="carousel slide" data-ride="carousel" id="carousel-1">
             <div class="carousel-inner">
-                <div class="carousel-item" style="height: -18px;">
-                    <div class="jumbotron d-block pulse animated hero-nature carousel-hero" style="height: 100vh;background: url(&quot;assets/img/neg%20fi.png&quot;) no-repeat;">
-                        <h1 class="display-3 d-block hero-title p-3" style="margin-top: 100px;color: rgb(0,0,0);background: rgba(255,255,255,0.79);margin-bottom: 11px;font-family: Alatsi, sans-serif;">R&amp;G Centro Integral Gráfico<br></h1>
-                        <p class="d-block hero-subtitle" style="color: rgb(0,0,0);background: rgba(255,255,255,0.8);font-family: Alatsi, sans-serif;">Conoce quienes conforma esta empresa de 19 años de trayectoria.&nbsp;<br></p>
-                        <p><a class="btn btn-dark d-inline-block hero-button plat" role="button" href="Sobre%20Nosotros.html">Ver más</a></p>
+                <div class="carousel-item active">
+                    <div class="jumbotron jumbotron-fluid hero-nature carousel-hero">
+                        <h1 class="hero-title">Hero Nature</h1>
+                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="jumbotron d-block pulse animated hero-photography carousel-hero" style="height: 100vh;background: url(&quot;assets/img/servf.png&quot;) no-repeat;">
-                        <h1 class="display-3 d-block hero-title p-3" style="margin: 142px 0px 8px;margin-top: 100px;color: #000000;background: rgba(255,255,255,0.79);font-family: Alatsi, sans-serif;">Servicios&nbsp;</h1>
-                        <p><a class="btn btn-dark d-inline-block hero-button plat" role="button" href="Servicios.html">Ver más</a></p>
+                    <div class="jumbotron hero-photography carousel-hero">
+                        <h1 class="hero-title">Hero Photography</h1>
+                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
                     </div>
                 </div>
-                <div class="carousel-item active">
-                    <div class="jumbotron d-block pulse animated hero-technology carousel-hero" style="height: 100vh;color: rgb(255, 255, 255);background: url(&quot;assets/img/estesi.png&quot;) no-repeat;">
-                        <h1 class="display-3 d-block hero-title p-3" style="margin-top: 100px;color: rgb(0,0,0);background: rgba(255,255,255,0.79);font-family: Alatsi, sans-serif;">Novedades de la semana</h1>
-                        <p class="d-block hero-subtitle" style="background: rgba(255,255,255,0.79);color: rgb(0,0,0);font-family: Alatsi, sans-serif;">Conoce los nuevos ingresos de esta semana.</p>
-                        <p><a class="btn btn-dark d-inline-block hero-button plat" role="button" href="Novedades.html">Ver más</a></p>
-                    </div>
-                </div>
-                <div class="carousel-item" style="background: url(&quot;assets/img/charly1.png&quot;);">
-                    <div class="jumbotron d-block pulse animated hero-technology carousel-hero" style="height: 100vh;background: url(&quot;assets/img/cli.png&quot;) no-repeat;">
-                        <h1 class="display-4 d-block hero-title p-3" style="margin-top: 100px;color: rgb(0,0,0);background: rgba(255,255,255,0.79);font-family: Alatsi, sans-serif;">Trabajos para nuestros clientes</h1>
-                        <p class="d-block hero-subtitle" style="color: rgb(0,0,0);background: rgba(255,255,255,0.79);font-family: Alatsi, sans-serif;">Conoce quienes han confiado en nosotros para realizar los trabajos para sus empresas.</p>
-                        <p><a class="btn btn-dark d-inline-block hero-button plat" role="button" href="Clientes.html">Ver más</a></p>
+                <div class="carousel-item">
+                    <div class="jumbotron hero-technology carousel-hero">
+                        <h1 class="hero-title">Hero Technology</h1>
+                        <p class="hero-subtitle">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
                     </div>
                 </div>
             </div>
-            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev" style="margin-bottom: 12px;font-family: Alatsi, sans-serif;"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next" style="background: rgba(244,236,236,0);color: rgb(255, 255, 255);"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
-            <ol class="carousel-indicators invisible">
-                <li data-target="#carousel-1" data-slide-to="0"></li>
+            <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><i class="fa fa-chevron-right"></i><span class="sr-only">Next</span></a></div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-1" data-slide-to="1"></li>
-                <li data-target="#carousel-1" data-slide-to="2" class="active"></li>
-                <li data-target="#carousel-1" data-slide-to="3"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
             </ol>
         </div>
     </section>
